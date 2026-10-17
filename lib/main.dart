@@ -252,7 +252,7 @@ class CartItemTile extends StatelessWidget {
         value: item.gotIt,
         onChanged: (_) => onToggle(),
       ),
-      title: Text(
+      title: Text( 
         item.name,
         style: TextStyle(
           // Line-through when the item is checked.
